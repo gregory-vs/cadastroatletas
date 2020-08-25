@@ -18,7 +18,8 @@ class Controller extends BaseController
             ['nome' => 'Jose Silva',        'idade' => 22],
             ['nome' => 'Augusto Limeira',   'idade' => 20],
             ['nome' => 'Joao das Neves',    'idade' => 29],
-            ['nome' => 'Maria Karenina',    'idade' => 20]
+            ['nome' => 'Maria Karenina',    'idade' => 20],
+            ['nome' => 'Thales',    'idade' => 20]
         ];
     
         return  view('teste', compact('amigos'));
